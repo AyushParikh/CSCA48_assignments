@@ -1,0 +1,233 @@
+1
+---
+BANANA -> AAABBN, using a QUEUE
+
+Impossible!(0)
+---
+
+---
+BANANA -> AAABBN, using a STACK
+
+Impossible!(0)
+---
+
+---
+BANANA -> AAABBN, using a BUCKET
+
+Impossible!(0)
+---
+
+2
+---
+BANANA -> AAANNB, using a QUEUE
+
+Impossible!(0)
+---
+
+---
+BANANA -> AAANNB, using a STACK
+
+PUT(B)
+MOVE(A)
+PUT(N)
+MOVE(A)
+PUT(N)
+MOVE(A)
+GET(N)
+GET(N)
+GET(B)
+---
+
+---
+BANANA -> AAANNB, using a BUCKET
+
+Impossible!(0)
+---
+
+3
+---
+BANANA -> BBAAAN, using a QUEUE
+
+Impossible!(0)
+---
+
+---
+BANANA -> BBAAAN, using a STACK
+
+Impossible!(0)
+---
+
+---
+BANANA -> BBAAAN, using a BUCKET
+
+Impossible!(0)
+---
+
+4
+---
+BANANA -> BBNAAA, using a QUEUE
+
+Impossible!(0)
+---
+
+---
+BANANA -> BBNAAA, using a STACK
+
+Impossible!(0)
+---
+
+---
+BANANA -> BBNAAA, using a BUCKET
+
+Impossible!(0)
+---
+
+5
+---
+BANANA -> NNAAAB, using a QUEUE
+
+Impossible!(0)
+---
+
+---
+BANANA -> NNAAAB, using a STACK
+
+PUT(B)
+PUT(A)
+MOVE(N)
+PUT(A)
+MOVE(N)
+PUT(A)
+GET(A)
+GET(A)
+GET(A)
+GET(B)
+---
+
+---
+BANANA -> NNAAAB, using a BUCKET
+
+Impossible!(0)
+---
+
+6
+---
+BANANA -> NNBAAA, using a QUEUE
+
+PUT(B)
+PUT(A)
+MOVE(N)
+PUT(A)
+MOVE(N)
+PUT(A)
+GET(B)
+GET(A)
+GET(A)
+GET(A)
+---
+
+---
+BANANA -> NNBAAA, using a STACK
+
+Impossible!(0)
+---
+
+---
+BANANA -> NNBAAA, using a BUCKET
+
+Impossible!(0)
+---
+
+7
+---
+BANANA -> ANANAB, using a QUEUE
+
+PUT(B)
+MOVE(A)
+MOVE(N)
+MOVE(A)
+MOVE(N)
+MOVE(A)
+GET(B)
+---
+
+---
+BANANA -> ANANAB, using a STACK
+
+PUT(B)
+PUT(A)
+PUT(N)
+PUT(A)
+PUT(N)
+PUT(A)
+GET(A)
+GET(N)
+GET(A)
+GET(N)
+GET(A)
+GET(B)
+---
+
+---
+BANANA -> ANANAB, using a BUCKET
+
+PUT(B)
+MOVE(A)
+MOVE(N)
+MOVE(A)
+MOVE(N)
+MOVE(A)
+GET(B)
+---
+
+8
+---
+BANANA -> NABANA, using a QUEUE
+
+PUT(B)
+PUT(A)
+MOVE(N)
+MOVE(A)
+GET(B)
+GET(A)
+MOVE(N)
+MOVE(A)
+---
+
+---
+BANANA -> NABANA, using a STACK
+
+PUT(B)
+PUT(A)
+MOVE(N)
+GET(A)
+GET(B)
+MOVE(A)
+MOVE(N)
+MOVE(A)
+---
+
+---
+BANANA -> NABANA, using a BUCKET
+
+Impossible!(0)
+---
+
+9
+---
+BANANA -> NANANANABATMAN, using a QUEUE
+
+Impossible!(0)
+---
+
+---
+BANANA -> NANANANABATMAN, using a STACK
+
+Impossible!(0)
+---
+
+---
+BANANA -> NANANANABATMAN, using a BUCKET
+
+Impossible!(0)
+---

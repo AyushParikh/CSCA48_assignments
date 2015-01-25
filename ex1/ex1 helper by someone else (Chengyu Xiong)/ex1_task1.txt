@@ -1,0 +1,13 @@
+STACK
+
+OPER   | SOURCE | GOAL   | STACK  | 
+       | BANANA |        |        | 
+PUT B  | ANANA  |        | B      | 
+MOVE A | NANA   | A      | B      | 
+PUT N  | ANA    | A      | BN     | 
+MOVE A | NA     | AA     | BN     | 
+PUT N  | A      | AA     | BNN    | 
+MOVE A |        | AAA    | BNN    | 
+GET N  |        | AAAN   | BN     | 
+GET N  |        | AAANN  | B      | 
+GET B  |        | AAANNB |        | 
