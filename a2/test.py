@@ -1,13 +1,14 @@
 from regex_functions import *
 
-# This test case (by Chengyu (Tyrone) Xiong on the forumes)
+# This test case (by Chengyu (Tyrone) Xiong on the forums)
 # takes around 11 seconds to run using my program
 # Other people's programs never finish running at all
 from timeit import timeit
-print(timeit('print(all_regex_permutations("(1*|e*.(2)).0()**") == 75600)',
+print(timeit('all_regex_permutations("(1*|e*.(2)).0()**")',
              'from regex_functions import all_regex_permutations',
              number=1))
-#print(len(all_regex_permutations("(1*|e*.(2)).0()**")) == 75600)
+# Check for correctness
+print(len(all_regex_permutations("(1*|e*.(2)).0()**")) == 75600)
 
 # Extra test cases from a forum post by Wilbur Hsu
 print('\nis_regex extra tests:')
